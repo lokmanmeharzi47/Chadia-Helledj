@@ -806,6 +806,18 @@
       margin-top: 6px;
     }
 
+    .footer-agency-link {
+      color: var(--gold-muted);
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+
+    .footer-agency-link:hover {
+      color: var(--gold-bright);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
     .toast-msg {
       position: fixed;
       bottom: 24px;
@@ -848,6 +860,7 @@
     }
 
     @media (prefers-reduced-motion: reduce) {
+
       *,
       *::before,
       *::after {
@@ -905,9 +918,8 @@
     <section class="hero-section anim-reveal" aria-label="الصورة القيادية الرسمية">
       <div class="hero-portrait-frame">
         <!-- Master Official Portrait -->
-        <img src="portrait.jpg"
-          alt="السيدة شادية حلاج - عضو بالمكتب الجهوي الوسط الجزائر العاصمة وخبيرة إقتصادية دولية" class="hero-img"
-          id="hero-portrait-img">
+        <img src="portrait.jpg" alt="السيدة شادية حلاج - عضو بالمكتب الجهوي الوسط الجزائر العاصمة وخبيرة إقتصادية دولية"
+          class="hero-img" id="hero-portrait-img">
 
         <!-- Coordinates locked strictly to the golden cartouche inside the portrait -->
         <div class="picture-gold-box-content">
@@ -924,7 +936,8 @@
           <div class="gold-divider"></div>
 
           <p class="person-title" id="txt-person-title">عضو بالمكتب الجهوي – الوسط الجزائر العاصمة</p>
-          <p class="person-subtitle" id="txt-person-subtitle">International Agricultural Expert • خبيرة إقتصادية دولية</p>
+          <p class="person-subtitle" id="txt-person-subtitle">International Agricultural Expert • خبيرة إقتصادية دولية
+          </p>
         </div>
       </div>
     </section>
@@ -1018,7 +1031,8 @@
 
         <div class="cred-item cred-item-full">
           <dt id="lbl-decree">اعتماد وزارة الداخلية والجماعات المحلية والتهيئة العمرانية</dt>
-          <dd class="mono-gold" id="val-decree">رقم: 017 / م ع ح ع ش ق / م ج ج / م ف ج / 21 (المؤرخ في 18 أفريل 2021)</dd>
+          <dd class="mono-gold" id="val-decree">رقم: 017 / م ع ح ع ش ق / م ج ج / م ف ج / 21 (المؤرخ في 18 أفريل 2021)
+          </dd>
         </div>
 
         <div class="cred-item cred-item-full">
@@ -1042,20 +1056,22 @@
           </div>
           <div class="pillar-body">
             <h3 id="txt-p1-title">المكتب الجهوي للوسط — الجزائر العاصمة</h3>
-            <p id="txt-p1-desc">تمثيل الهيئة الوطنية أمام السلطات والهيئات الرسمية، والتنسيق المؤسساتي على مستوى ولاية الجزائر والوسط، وتفعيل برامج التعاون والشراكة التنموية.</p>
+            <p id="txt-p1-desc">تمثيل الهيئة الوطنية أمام السلطات والهيئات الرسمية، والتنسيق المؤسساتي على مستوى ولاية
+              الجزائر والوسط، وتفعيل برامج التعاون والشراكة التنموية.</p>
           </div>
         </article>
 
         <article class="pillar-card">
           <div class="pillar-icon-wrap">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M12 22V12m0 0a5 5 0 0 1 5-5h2a5 5 0 0 1-5 5zm0 0a5 5 0 0 0-5-5H5a5 5 0 0 0 5 5z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M12 22V12m0 0a5 5 0 0 1 5-5h2a5 5 0 0 1-5 5zm0 0a5 5 0 0 0-5-5H5a5 5 0 0 0 5 5z" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </div>
           <div class="pillar-body">
             <h3 id="txt-p2-title">الخبرة الاقتصادية والفلاحية الدولية</h3>
-            <p id="txt-p2-desc">تقديم الاستشارات الاقتصادية والفلاحية الدولية، مرافقة المشاريع التنموية الكبرى، دعم استراتيجيات الأمن الغذائي والنهوض بالاستثمار الفلاحي والصناعي المستدام.</p>
+            <p id="txt-p2-desc">تقديم الاستشارات الاقتصادية والفلاحية الدولية، مرافقة المشاريع التنموية الكبرى، دعم
+              استراتيجيات الأمن الغذائي والنهوض بالاستثمار الفلاحي والصناعي المستدام.</p>
           </div>
         </article>
 
@@ -1068,7 +1084,8 @@
           </div>
           <div class="pillar-body">
             <h3 id="txt-p3-title">ترقية الإستثمار والتكفل بالجالية بالخارج</h3>
-            <p id="txt-p3-desc">استقطاب ومرافقة الكفاءات والمستثمرين من أبناء الجالية الوطنية بالخارج، تيسير مسارات التمويل والشراكة، وإدماجهم الفعّال في الديناميكية الاقتصادية الوطنية.</p>
+            <p id="txt-p3-desc">استقطاب ومرافقة الكفاءات والمستثمرين من أبناء الجالية الوطنية بالخارج، تيسير مسارات
+              التمويل والشراكة، وإدماجهم الفعّال في الديناميكية الاقتصادية الوطنية.</p>
           </div>
         </article>
 
@@ -1093,7 +1110,8 @@
         <span id="txt-contact-phone-2">الخط الثانوي: 07.79.31.78.98</span>
       </a>
 
-      <a href="https://wa.me/213770078879" target="_blank" rel="noopener noreferrer" class="contact-pill" id="btn-whatsapp">
+      <a href="https://wa.me/213770078879" target="_blank" rel="noopener noreferrer" class="contact-pill"
+        id="btn-whatsapp">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path
             d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.12-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.71 4.29 3.8.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.17-.48-.29z" />
@@ -1129,8 +1147,10 @@
 
       <ul class="legal-list">
         <li id="txt-dir-1">حامل هذه البطاقة شخصية إعتبارية له كامل الصلاحيات أمام الجهات الرسمية.</li>
-        <li id="txt-dir-2">إعتماد وزارة الداخلية والجماعات المحلية والتهيئة العمرانية رقم 017 / م ع ح ع ش ق / م ج ج / م ف ج / 21 المؤرخ في 18 أفريل 2021.</li>
-        <li id="txt-dir-3">تقديم الصفة والاعتماد لزوماً لدى المصالح الأمنية والإدارية عند القيام بمهام التنسيق والتنمية.</li>
+        <li id="txt-dir-2">إعتماد وزارة الداخلية والجماعات المحلية والتهيئة العمرانية رقم 017 / م ع ح ع ش ق / م ج ج / م
+          ف ج / 21 المؤرخ في 18 أفريل 2021.</li>
+        <li id="txt-dir-3">تقديم الصفة والاعتماد لزوماً لدى المصالح الأمنية والإدارية عند القيام بمهام التنسيق والتنمية.
+        </li>
         <li id="txt-dir-4">يعرض الاستعمال غير القانوني للصفة أو الاختام لعقوبات جزائية وإدارية صارمة.</li>
       </ul>
 
@@ -1140,11 +1160,13 @@
       </div>
     </section>
 
-    <!-- Footer -->
     <footer class="portal-footer anim-reveal">
       <div class="footer-org" id="txt-foot-org">الجمهورية الجزائرية الديمقراطية الشعبية</div>
-      <div class="footer-sub" id="txt-foot-sub">المنظمة الجزائرية إتصال من أجل التنمية • الهيئة الوطنية لتنمية المهاجرين والتكفل بالجالية بالخارج</div>
-      <div class="footer-copy" id="txt-foot-copy">جميع الحقوق محفوظة © 2026 — البوابة الرسمية للسيدة شادية حلاج • CHADIA HALLEDJ</div>
+      <div class="footer-sub" id="txt-foot-sub">المنظمة الجزائرية إتصال من أجل التنمية • الهيئة الوطنية لتنمية المهاجرين
+      </div>
+      <div class="footer-copy">© 2026 CHADIA HALLEDJ • <a href="https://www.digitalagencey.com/" target="_blank"
+          rel="noopener noreferrer" class="footer-agency-link" title="Digital Agency">Official Institutional Bio Portal
+          by Digital Agency</a></div>
     </footer>
 
   </main>
